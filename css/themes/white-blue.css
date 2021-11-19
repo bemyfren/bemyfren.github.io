@@ -1,14 +1,18 @@
 /* Theme */
 
-main {
-	background: #FAFAFA;
-	color: #0277BD;
+body {
+ background-image: url("../../images/background.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+ color: red;
 }
 
 .icons-social a {
-	color: #0277BD;
+	color: blue;
 }
 
 .icons-social a svg path{
-	fill: #0277BD;
+	fill: blue;
 }

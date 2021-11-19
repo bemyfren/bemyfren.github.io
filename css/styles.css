@@ -32,6 +32,29 @@ html {
 	font-size: 3em;
 }
 
+a:link {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /* Custom Styles */
 
@@ -54,6 +77,12 @@ main > .tagline {
 	font-size: 2rem;
 	margin: 1.5rem 0;
 	font-weight: 400;
+}
+
+main > .description {
+	font-size: 1rem;
+	margin: 1.5rem 0;
+	font-weight: 600;
 }
 
 .icons-social i {

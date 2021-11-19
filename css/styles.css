@@ -68,21 +68,30 @@ main {
 }
 
 main > .intro {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); 
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
 main > .tagline {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4);
 	font-size: 2rem;
 	margin: 1.5rem 0;
 	font-weight: 400;
 }
 
 main > .description {
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
 	font-size: 1rem;
 	margin: 1.5rem 0;
 	font-weight: 600;
+  padding: 20px;
+  text-align: center;
 }
 
 .icons-social i {
